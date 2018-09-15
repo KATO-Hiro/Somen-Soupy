@@ -28,6 +28,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 # Requirement
 - Python3.x
 - pip
+- pytest
 
 
 # Usage
@@ -42,7 +43,6 @@ Paste the following commands at a Terminal prompt.
 
 
 # TODO List
-- Introduce unit test.
 - Introduce continuous integration (CI) software.
 - Show Badge Status.
 - Add snippets at any time.
