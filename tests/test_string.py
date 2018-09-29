@@ -11,6 +11,7 @@ class TestString(object):
         ('Hello world.', 'Hello World.'),
         ('hello World.', 'Hello World.'),
         ('Hello World.', 'Hello World.'),
+        ('hEllo world.', 'Hello World.'),
     ])
     def test_to_titlecase(self, string, expected):
         actual = to_titlecase(string)
