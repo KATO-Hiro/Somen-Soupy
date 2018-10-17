@@ -24,3 +24,26 @@ class TestPrime(object):
         prime = Prime(number)
         actual = prime.is_included()
         assert actual == expected
+
+    @pytest.mark.parametrize(('number', 'expected'), [
+        (1, []),
+        (2, [2]),
+        (3, [2, 3]),
+        (11, [2, 3, 5, 7, 11]),
+    ])
+    def test_generate(self, number, expected):
+        prime = Prime(number)
+        actual = prime.generate()
+        assert actual == expected
+
+    @pytest.mark.parametrize(('number', 'expected'), [
+        (1, []),
+        (2, [2]),
+        (3, [2, 3]),
+        (11, [2, 3, 5, 7, 11]),
+    ])
+    def test_generate_twice(self, number, expected):
+        prime = Prime(number)
+        actual = prime.generate()
+        actual = prime.generate()
+        assert actual == expected
