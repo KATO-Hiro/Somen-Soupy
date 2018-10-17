@@ -2,7 +2,7 @@
 '''Snippets for prime.
 
 Available functions:
-- is_prime: Determine whether it is a prime number.
+- is_included: Determine whether it is a prime number.
 '''
 
 
@@ -13,7 +13,7 @@ class Prime(object):
     def __init__(self, number):
         self.number = number
 
-    def is_prime(self) -> bool:
+    def is_included(self) -> bool:
         '''Determine whether it is a prime number.
 
         Args:

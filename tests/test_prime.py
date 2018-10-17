@@ -22,5 +22,5 @@ class TestPrime(object):
     ])
     def test_is_prime(self, number, expected):
         prime = Prime(number)
-        actual = prime.is_prime()
+        actual = prime.is_included()
         assert actual == expected
