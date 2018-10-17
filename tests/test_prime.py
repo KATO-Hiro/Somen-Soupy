@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from snippets.prime import is_prime
+from snippets.prime import Prime
 
 
 class TestPrime(object):
@@ -21,5 +21,6 @@ class TestPrime(object):
         (10 ** 9 + 7, True),
     ])
     def test_is_prime(self, number, expected):
-        actual = is_prime(number)
+        prime = Prime(number)
+        actual = prime.is_prime()
         assert actual == expected
