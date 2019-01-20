@@ -9,6 +9,7 @@ Available functions:
 def count_combination(n: int, r: int, mod: int = 10 ** 9 + 7) -> int:
     '''Count the total number of combinations.
         nCr % mod.
+        nHr % mod = (n + r - 1)Cr % mod.
 
     Args:
         n   : Elements. Int of number (greater than 1).

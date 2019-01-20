@@ -17,6 +17,7 @@ class TestFactorization(object):
         (10 ** 5, 99998, 999949972),
         (10 ** 5, 10 ** 5, 1),
         (10 ** 5, 1, 10 ** 5),
+        (3 + 4 - 1, 4, 15),
     ])
     def test_count_combination(self, n, r, expected):
         actual = count_combination(n, r)
