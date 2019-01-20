@@ -20,6 +20,7 @@ def lcm(a: int, b: int) -> int:
 
     See:
     https://gist.github.com/endolith/114336/eff2dc13535f139d0d6a2db68597fad2826b53c3
+    https://docs.python.org/3/library/sys.html#sys.version_info
     '''
 
     from sys import version_info
