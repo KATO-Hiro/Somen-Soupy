@@ -22,3 +22,9 @@ class TestFactorization(object):
     def test_count_combination(self, n, r, expected):
         actual = count_combination(n, r)
         assert actual == expected
+
+    def test_count_combination_using_original_mod(self):
+        mod = 998244353
+        actual = count_combination(90081, 48090, mod) * count_combination(90081, 52771, mod)
+        actual = actual % mod
+        assert actual == 577742975

@@ -26,7 +26,7 @@ def count_combination(n: int, r: int, mod: int = 10 ** 9 + 7) -> int:
     '''
 
     if r > (n - r):
-        return count_combination(n, n - r)
+        return count_combination(n, n - r, mod)
 
     if r == 0 or r == n:
         return 1
