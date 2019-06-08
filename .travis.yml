@@ -1,0 +1,17 @@
+# See:
+# https://docs.travis-ci.com/user/languages/python/
+dist: xenial # required for Python >= 3.7
+
+language: python
+
+python:
+  - TOXENV=py34
+  - TOXENV=py35
+  - TOXENV=py36
+  - TOXENV=py37
+
+install:
+  - pip install tox
+
+script:
+  - tox
