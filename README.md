@@ -1,4 +1,7 @@
 # Somen-Soupy
+
+[![Build Status](https://travis-ci.org/KATO-Hiro/Somen-Soupy.svg?branch=master)](https://travis-ci.org/KATO-Hiro/Somen-Soupy)
+
 Python3 implementation of competitive programming library inspired by spaghetti-source/algorithm.
 
 
@@ -43,12 +46,14 @@ Paste the following commands at a Terminal prompt.
 
 
 # TODO List
-- Introduce continuous integration (CI) software.
-- Show Badge Status.
 - Add snippets at any time.
 - Add algorithms at any time.
 - Ensure compatibility between OSs.
 - Classify snippets and algorithms.
+
+# Done
+- Introduce continuous integration (CI) software.
+- Show Badge Status.
 
 
 # Development environment
