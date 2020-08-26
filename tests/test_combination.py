@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from snippets.math.combination import count_combination
+from snippets.math.combination import Combination
 
 
 class TestFactorization(object):
@@ -25,11 +25,13 @@ class TestFactorization(object):
         (3 + 4 - 1, 4, 15),
     ])
     def test_count_combination(self, n, r, expected):
-        actual = count_combination(n, r)
+        combination = Combination(max_value=10 ** 5 + 100)
+        actual = combination.count_nCr(n, r)
         assert actual == expected
 
     def test_count_combination_using_original_mod(self):
         mod = 998244353
-        actual = count_combination(90081, 48090, mod) * count_combination(90081, 52771, mod)
+        combination = Combination(max_value=10 ** 5 + 100, mod=mod)
+        actual = combination.count_nCr(90081, 48090) * combination.count_nCr(90081, 52771)
         actual = actual % mod
         assert actual == 577742975

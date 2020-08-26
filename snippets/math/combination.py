@@ -1,49 +1,64 @@
 # -*- coding: utf-8 -*-
 '''Snippets for combination.
-
-Available functions:
-- count_combination: Count the total number of combinations.
 '''
 
+# Usage:
+# combination = Combination(max_value=10 ** 5 + 100)
+# combination.count_nCr(n, r)
 
-def count_combination(n: int, r: int, mod: int = 10 ** 9 + 7) -> int:
-    '''Count the total number of combinations.
+
+class Combination(object):
+    ''' Count the total number of combinations.
         nCr % mod.
         nHr % mod = (n + r - 1)Cr % mod.
 
-    Args:
-        n   : Elements. Int of number (greater than 1).
-        r   : The number of r-th combinations. Int of number (greater than 0).
-        mod : Modulo. The default is 10 ** 9 + 7.
+        Args:
+            max_value: Max size of list. The default is 500,050
+            mod      : Modulo. The default is 10 ** 9 + 7.
 
-    Returns:
-        The total number of combinations.
+        Landau notation: O(n)
 
-    Landau notation: O(n)
-
-    See:
-    https://qiita.com/derodero24/items/91b6468e66923a87f39f
+        See:
+        http://drken1215.hatenablog.com/entry/2018/06/08/210000
     '''
 
-    if (r > n) or (n < 0) or (r < 0):
-        return 0
+    def __init__(self, max_value=500050, mod=10 ** 9 + 7):
+        self.max_value = max_value
+        self.mod = mod
+        self.fac = [0 for _ in range(self.max_value)]
+        self.finv = [0 for _ in range(self.max_value)]
+        self.inv = [0 for _ in range(self.max_value)]
 
-    if r > (n - r):
-        return count_combination(n, n - r, mod)
+        self.fac[0] = 1
+        self.fac[1] = 1
+        self.finv[0] = 1
+        self.finv[1] = 1
+        self.inv[1] = 1
 
-    if r == 0 or r == n:
-        return 1
+        for i in range(2, self.max_value):
+            self.fac[i] = self.fac[i - 1] * i % self.mod
+            self.inv[i] = self.mod - self.inv[self.mod % i] * (self.mod // i) % self.mod
+            self.finv[i] = self.finv[i - 1] * self.inv[i] % self.mod
 
-    if r == 1:
-        return n
+    def count_nCr(self, n, r):
+        '''Count the total number of combinations.
+            nCr % mod.
+            nHr % mod = (n + r - 1)Cr % mod.
 
-    multiple = 1
-    division = 1
+        Args:
+            n   : Elements. Int of number (greater than 1).
+            r   : The number of r-th combinations. Int of number
+                  (greater than 0).
 
-    for i in range(r):
-        multiple *= n - i
-        division *= i + 1
-        multiple %= mod
-        division %= mod
+        Returns:
+            The total number of combinations.
 
-    return multiple * pow(division, mod - 2, mod) % mod
+        Landau notation: O(1)
+        '''
+
+        if n < r:
+            return 0
+        if n < 0 or r < 0:
+            return 0
+
+        return self.fac[n] * (self.finv[r] * self.finv[n - r] % self.mod) % self.mod
