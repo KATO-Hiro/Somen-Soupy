@@ -67,6 +67,7 @@ Paste the following commands at a Terminal prompt.
 
 >https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec
 
+[Software licenses for competitive programming library](https://kimiyuki.net/blog/2020/02/14/licenses-for-kyopro-libraries/)
 
 # Author
 [@KATO-Hiro](https://twitter.com/k_hiro1818)
@@ -74,3 +75,5 @@ Paste the following commands at a Terminal prompt.
 
 # License
 [MIT](http://KATO-Hiro.mit-license.org)
+
+Note: When sending part of this library to a judge server, etc. for competition programming, copyright and permission notices can be omitted.
