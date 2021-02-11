@@ -73,7 +73,6 @@ Paste the following commands at a Terminal prompt.
 [@KATO-Hiro](https://twitter.com/k_hiro1818)
 
 
-# License
-[MIT](http://KATO-Hiro.mit-license.org)
+## License
 
-Note: When sending part of this library to a judge server, etc. for competition programming, copyright and permission notices can be omitted.
+[CC0](https://creativecommons.org/share-your-work/public-domain/cc0)
