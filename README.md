@@ -1,6 +1,6 @@
 # Somen-Soupy
 
-[![Build Status](https://travis-ci.org/KATO-Hiro/Somen-Soupy.svg?branch=master)](https://travis-ci.org/KATO-Hiro/Somen-Soupy)
+![build](https://github.com/KATO-Hiro/Somen-Soupy/workflows/Python%20package/badge.svg)
 
 Python3 implementation of competitive programming library inspired by spaghetti-source/algorithm.
 
