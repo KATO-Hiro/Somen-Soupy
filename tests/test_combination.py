@@ -4,7 +4,7 @@ import pytest
 from snippets.math.combination import Combination
 
 
-class TestFactorization(object):
+class TestFactorization:
 
     @pytest.mark.parametrize(('n', 'r', 'expected'), [
         (3, 1, 3),

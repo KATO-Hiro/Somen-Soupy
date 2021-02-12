@@ -4,7 +4,7 @@ import pytest
 from snippets.math.digit import count_digit
 
 
-class TestDigit(object):
+class TestDigit:
 
     @pytest.mark.parametrize(('number', 'expected'), [
         (0, 1),

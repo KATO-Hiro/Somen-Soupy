@@ -4,7 +4,7 @@ import pytest
 from snippets.math.n_ary_number import convert_decimal_to_n_ary_number
 
 
-class TestFactorization(object):
+class TestFactorization:
 
     @pytest.mark.parametrize(('number', 'm_ary', 'expected'), [
         (0, 2, 0),

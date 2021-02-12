@@ -4,7 +4,7 @@ import pytest
 from snippets.math.lcm import lcm
 
 
-class TestFactorization(object):
+class TestFactorization:
 
     @pytest.mark.parametrize(('a', 'b', 'expected'), [
         (1, 1, 1),

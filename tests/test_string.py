@@ -4,7 +4,7 @@ import pytest
 from snippets.string import to_titlecase
 
 
-class TestString(object):
+class TestString:
 
     @pytest.mark.parametrize(('string', 'expected'), [
         ('hello world.', 'Hello World.'),

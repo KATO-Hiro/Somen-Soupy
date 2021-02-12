@@ -4,7 +4,7 @@ import pytest
 from snippets.math.comress import compress_coordinate
 
 
-class TestFactorization(object):
+class TestFactorization:
 
     @pytest.mark.parametrize(('numbers', 'expected'), [
         ([10000000], {10000000: 0}),

@@ -7,7 +7,7 @@
 # combination.count_nCr(n, r)
 
 
-class Combination(object):
+class Combination:
     ''' Count the total number of combinations.
         nCr % mod.
         nHr % mod = (n + r - 1)Cr % mod.

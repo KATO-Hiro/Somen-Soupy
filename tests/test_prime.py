@@ -4,7 +4,7 @@ import pytest
 from snippets.prime import Prime
 
 
-class TestPrime(object):
+class TestPrime:
 
     @pytest.mark.parametrize(('number', 'expected'), [
         (-1.1, False),

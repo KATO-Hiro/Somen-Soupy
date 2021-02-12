@@ -4,7 +4,7 @@ import pytest
 from snippets.graph.unionfind import UnionFind
 
 
-class TestUnionFind(object):
+class TestUnionFind:
 
     def test_find_root(self):
         number = 5
