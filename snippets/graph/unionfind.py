@@ -14,7 +14,7 @@ Available functions:
 '''
 
 
-class UnionFind(object):
+class UnionFind:
     '''Represents a data structure that tracks a set of elements partitioned
        into a number of disjoint (non-overlapping) subsets.
 

@@ -7,7 +7,7 @@ Available functions:
 '''
 
 
-class Prime(object):
+class Prime:
     '''Represents a snippet for prime numbers.
     '''
 

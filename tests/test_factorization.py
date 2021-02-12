@@ -4,7 +4,7 @@ import pytest
 from snippets.math.factorization import run_prime_factorization
 
 
-class TestFactorization(object):
+class TestFactorization:
 
     @pytest.mark.parametrize(('number', 'expected'), [
         (1, {}),
