@@ -2,6 +2,21 @@
 
 
 def calc_depth(vertex_count: int, graph):
+    """Calculates depth of rooted tree.
+
+    Assumption:
+        The graph is connected.
+
+    Args:
+        vertex_count : The number of vertices in rooted tree.
+        graph        : Rooted tree (0-indexed).
+
+    Returns:
+        depth : Depth of rooted tree (0-indexed).
+
+    Landau notation: O(|Edges|log|Vertices|).
+    """
+
     from collections import deque
 
     PENDING = -1
