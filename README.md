@@ -4,74 +4,52 @@
 
 Python3 implementation of competitive programming library inspired by spaghetti-source/algorithm.
 
+## Description
 
-# Table of Contents
-- Description
-- Features
-- Requirement
-- Usage
-- Installation
-- TODO List
-- Development environment
-- References
-- Author
-- License
-
-
-# Description
 - These are my Python3 implementations of snippets and algorithms, which are written for studying/understanding algorithms.
 
 - These codes are published in __public domain__. You can use the codes for _any purpose without any warranty_.
 
+## Features
 
-# Features
 - Useful snippets for the contest.
 
+## Requirement
 
-# Requirement
-- Python3.x
+### For all users
+
+- Python 3.6.0+, 3.7.0+, 3.8.0+, 3.9.0+
 - pip
+
+### For developer
+
 - pytest
+- GitHub Actions
 
+## Usage
 
-# Usage
 1. Install this repository by the following method.
 2. Search for snippets and algorithms as needed.
 
+## Installation
 
-# Installation
 Paste the following commands at a Terminal prompt.
 
-    $ git clone https://github.com/KATO-Hiro/Somen-Soupy
+```terminal
+$ git clone https://github.com/KATO-Hiro/Somen-Soupy
+```
 
+## References
 
-# TODO List
-- Add snippets at any time.
-- Add algorithms at any time.
-- Ensure compatibility between OSs.
-- Classify snippets and algorithms.
+[spaghetti-source/algorithm](https://github.com/spaghetti-source/algorithm)
 
-# Done
-- Introduce continuous integration (CI) software.
-- Show Badge Status.
-
-
-# Development environment
-- Windows 7 64bit
-- Python 3.6.1
-
-
-# References
-
->https://github.com/spaghetti-source/algorithm
-
->https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec
+[Readme Driven Development; RDD](https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec)
 
 [Software licenses for competitive programming library](https://kimiyuki.net/blog/2020/02/14/licenses-for-kyopro-libraries/)
 
-# Author
-[@KATO-Hiro](https://twitter.com/k_hiro1818)
+## Author
 
+[@KATO-Hiro](https://twitter.com/k_hiro1818)
 
 ## License
 
