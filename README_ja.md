@@ -1,0 +1,52 @@
+# Somen-Soupy
+
+![build](https://github.com/KATO-Hiro/Somen-Soupy/workflows/Python%20package/badge.svg)
+
+## 説明
+
+- 競技プログラミングのコンテストで使用するスニペットやアルゴリズムがPython3で実装されています。
+
+## 主な機能
+
+- 準備中。
+
+## 利用環境、開発環境に関する情報
+
+### 利用者、開発者向け
+
+- Python 3.6.0+, 3.7.0+, 3.8.0+, 3.9.0+
+- pip
+
+### 開発者向け
+
+- pytest
+- GitHub Actions
+
+## 使い方
+
+1. このレポジトリを以下に示す方法でインストールしてください。
+2. 使いたいスニペットやアルゴリズムをコピーして、コンテストで提出するコードに貼り付けます。
+
+## インストール
+
+ターミナルで以下のコマンドを貼り付けて、実行してください。
+
+```terminal
+$ git clone https://github.com/KATO-Hiro/Somen-Soupy
+```
+
+## 参考資料
+
+[spaghetti-source/algorithm](https://github.com/spaghetti-source/algorithm)
+
+[Readme Driven Development; RDD](https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec)
+
+[Software licenses for competitive programming library](https://kimiyuki.net/blog/2020/02/14/licenses-for-kyopro-libraries/)
+
+## 作者
+
+[@KATO-Hiro](https://twitter.com/k_hiro1818)
+
+## ライセンス
+
+[CC0](https://creativecommons.org/share-your-work/public-domain/cc0)
