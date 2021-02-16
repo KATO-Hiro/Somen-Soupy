@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from snippets.prime import Prime
+from snippets.math.prime import Prime
 
 
 class TestPrime:

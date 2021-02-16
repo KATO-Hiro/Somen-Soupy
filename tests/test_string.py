@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from snippets.string import to_titlecase
+from snippets.string.string import to_titlecase
 
 
 class TestString:
