@@ -4,6 +4,8 @@
 
 Python3 implementation of competitive programming library inspired by spaghetti-source/algorithm.
 
+[日本語のREADME](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/README_ja.md)
+
 ## Description
 
 - These are my Python3 implementations of snippets and algorithms, which are written for studying/understanding algorithms.
