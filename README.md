@@ -14,7 +14,23 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 
 ## Features
 
-- Useful snippets for the contest.
+- Graph
+  - [Dijkstra](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
+  - [Rooted Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
+  - [Union Find Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
+  - [Warshall Floyd](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
+
+- Math
+  - [Combination](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
+  - [Compress coordinate](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
+  - [Digit](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
+  - [Factorization](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
+  - [Least Common Multiple (LCM)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
+  - [N-ary number](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
+  - [Prime](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
+
+- String
+  - [To titlecase](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
 
 ## Requirement
 

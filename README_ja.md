@@ -8,7 +8,24 @@
 
 ## 主な機能
 
-- 準備中。
+- グラフ理論
+  - [ダイクストラ法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
+  - [根付き木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
+  - [Union Find木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
+  - [ワーシャル・フロイド法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
+
+- 算数・数学
+  - [N進数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
+  - [組み合わせ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
+  - [桁数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
+  - [最小公倍数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
+  - [座標圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
+  - [素因数分解](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
+  - [素数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
+
+- 文字列
+  - [タイトルケースに変換](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
+
 
 ## 利用環境、開発環境に関する情報
 
