@@ -43,6 +43,7 @@ def dijkstra(vertex_count: int, source: int, edges):
     hq = [(0, source)]  # weight, vertex number (0-indexed)
     costs = [float("inf") for _ in range(vertex_count)]
     costs[source] = 0
+    visited = [False for _ in range(vertex_count)]
     pending = -1
     parents = [pending for _ in range(vertex_count)]
 
@@ -51,6 +52,11 @@ def dijkstra(vertex_count: int, source: int, edges):
 
         if cost > costs[vertex]:
             continue
+
+        if visited[vertex]:
+            continue
+
+        visited[vertex] = True
 
         for weight, edge in edges[vertex]:
             new_cost = cost + weight
