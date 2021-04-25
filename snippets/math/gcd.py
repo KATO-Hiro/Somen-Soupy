@@ -11,7 +11,7 @@ def extgcd(a: int, b: int) -> Tuple[int, int, int]:
         b: Int of number (greater than 0).
 
     Returns:
-        gcd(a, b): Greatest common divisor (gcd)
+        gcd(a, b): Greatest common divisor (gcd).
         x: Int of number.
         y: Int of number.
 
