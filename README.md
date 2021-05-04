@@ -14,6 +14,9 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 
 ## Features
 
+- DP
+  - [LCS (Longest Common Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
+
 - Graph
   - [Dijkstra](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
   - [Rooted Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
