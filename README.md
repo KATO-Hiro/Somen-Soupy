@@ -31,6 +31,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Extended Euclidean algorithm](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/gcd.py)
   - [Factorization](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [Least Common Multiple (LCM)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
+  - [List of indices whose bit is 1](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/bit_index.py)
   - [N-ary number](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
   - [Prime](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
 
