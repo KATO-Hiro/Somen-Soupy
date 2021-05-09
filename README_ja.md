@@ -24,6 +24,7 @@
   - [座標圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [素因数分解](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [素数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
+  - [ビットが1となるインデックスのリストを取得](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/bit_index.py)
 
 - 動的計画法
   - [最長共通部分列 (LCS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
