@@ -48,3 +48,20 @@ class TestNAryNumber:
     def test_calc_pascals_triangle(self, n_max, expected):
         actual = calc_pascals_triangle(n_max)
         assert actual == expected
+
+    @pytest.mark.parametrize(
+        ("n", "r", "expected"),
+        [
+            (7, 0, 1),
+            (7, 1, 7),
+            (7, 2, 21),
+            (7, 3, 35),
+            (7, 4, 35),
+            (7, 5, 21),
+            (7, 6, 7),
+            (7, 7, 1),
+        ],
+    )
+    def test_access_pascals_triangle(self, n, r, expected):
+        actual = calc_pascals_triangle(n_max=n)
+        assert actual[n][r] == expected  # nCr
