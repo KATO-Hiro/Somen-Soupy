@@ -23,6 +23,8 @@ from typing import List, Optional
 class DeletableHeapq:
     """Alternatives to ordered set (set) in C++.
 
+    Landau notation: O(log(n))
+
     See:
     https://qiita.com/physharp/items/f9229ab879cac9a944d7
     https://prd-xxx.hateblo.jp/entry/2019/06/24/235844
@@ -69,6 +71,8 @@ class DeletableHeapq:
 
     def top(self, exc=None) -> Optional[int]:
         """Get a top value from the priority-queue.
+
+        Landau notation: O(1)
 
         Note:
         descending_order=False: min value.
