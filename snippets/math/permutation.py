@@ -9,6 +9,7 @@ class Permutation:
     Landau notation: O(n)
 
     See:
+    https://atcoder.jp/contests/abc133/submissions/6275589
     """
 
     def __init__(self, max_value=500050, mod=10 ** 9 + 7) -> None:
