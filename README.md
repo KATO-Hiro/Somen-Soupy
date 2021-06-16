@@ -15,8 +15,9 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 ## Features
 
 - Data Structure
-  - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
+  - [A dequeue that can perform random accesses with O(1)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/random_access_deque.py)
   - [Alternatives to ordered set (set) in C++](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/deletable_heapq.py)
+  - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
 
 - DP
   - [LCS (Longest Common Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
