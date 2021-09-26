@@ -35,6 +35,7 @@
 - データ構造
   - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
   - [順序付き集合の代替手段 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/deletable_heapq.py)
+  - [平衡二分木 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/balancing_tree.py)
   - [ランダムアクセスがO(1)となるdeque](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/random_access_deque.py)
 
 - 文字列
