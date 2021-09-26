@@ -3,7 +3,7 @@
 # Usage:
 #
 # Initialize
-# bt = BalancingTree(31) # 0 ～ 2 ** 31 - 1 までの要素を入れられるピボット木
+# bt = BalancingTree(31) # Pivot tree that can contain elements from 0 to 2 ** 31 - 1.
 # bt.append(0) # min value.
 # bt.append(10 ** 9) # max value.
 
@@ -29,6 +29,7 @@
 class BalancingTree:
     """
     Self-balancing binary search tree using pivot values.
+    `std::set` in C++.
 
     See:
     https://qiita.com/Kiri8128/items/6256f8559f0026485d90
