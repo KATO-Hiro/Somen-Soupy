@@ -10,6 +10,7 @@
 
 - グラフ理論
   - [木: 任意の頂点から各頂点への距離を求める (各リンクの長さが1の場合)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/tree_distance.py)
+  - [強連結成分分解 (SCC)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/scc.py)
   - [ダイクストラ法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
   - [根付き木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
   - [Union Find木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
