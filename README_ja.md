@@ -32,6 +32,7 @@
 
 - 動的計画法
   - [最長共通部分列 (LCS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
+  - [最長増加部分列 (LIS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lis.py)
 
 - データ構造
   - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
