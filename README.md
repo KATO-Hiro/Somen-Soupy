@@ -39,6 +39,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Combination](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
   - [Compress coordinate](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [Digit](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
+  - [Direct product](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/direct_product.py)
   - [Extended Euclidean algorithm](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/gcd.py)
   - [Factorization](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [Least Common Multiple (LCM)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
