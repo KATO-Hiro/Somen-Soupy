@@ -26,6 +26,7 @@
   - [最小公倍数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
   - [座標圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [順列 (nPr, mod付き)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/permutation.py)
+  - [整数の繰り上げ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/carry.py)
   - [素因数分解](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [素数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
   - [直積集合を列挙](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/direct_product.py)
