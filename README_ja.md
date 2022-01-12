@@ -42,6 +42,7 @@
   - [順序付き集合の代替手段 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/deletable_heapq.py)
   - [セグメント木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/segment_tree.py)
   - [2次元のリストを1次元のリストとして管理](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/two_dim_list.py)
+  - [配列の最初のi番目の要素までのうち、K番目に大きな値を取得 (i = K, K + 1, ..., n)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/kth_greatest_value.py)
   - [平衡二分木 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/balancing_tree.py)
   - [ランダムアクセスがO(1)となるdeque](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/random_access_deque.py)
 
