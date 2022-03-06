@@ -4,9 +4,30 @@
 '''Snippets for string.
 
 Available functions:
-- get_offset  : Get offset between the base_alphabet and alphabet.
-- to_titlecase: Convert the character string to titlecase.
+- add_offset_to_alphabet: 
+    Add offset to the base_alphabet.
+- get_offset: 
+    Get offset between the base_alphabet and alphabet.
+- to_titlecase: 
+    Convert the character string to titlecase.
 '''
+
+
+def add_offset_to_alphabet(offset: int, base_alphabet: str = 'A') -> str:
+    '''Add offset to the base_alphabet.
+
+    Args:
+        offset: Difference from the base alphabet. 
+        base_alphabet: The base alphabet to use.
+
+    Returns:
+        Corrected alphabet.
+    
+    See:
+    https://docs.python.org/3.11/library/functions.html?highlight=chr#ord
+    '''   
+
+    return chr(ord(base_alphabet) + offset)
 
 
 def get_offset(alphabet: str, base_alphabet: str = 'A') -> int:

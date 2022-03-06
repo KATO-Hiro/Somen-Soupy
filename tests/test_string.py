@@ -3,11 +3,30 @@
 
 import pytest
 
-from snippets.string.string import to_titlecase
+from snippets.string.string import add_offset_to_alphabet
 from snippets.string.string import get_offset
+from snippets.string.string import to_titlecase
 
 
 class TestString:
+
+    @pytest.mark.parametrize(('offset', 'base_alphabet', 'expected'), [
+        (0, '', 'A'),
+        (1, '', 'B'),
+        (24, '', 'Y'),
+        (25, '', 'Z'),
+        (0, 'a', 'a'),
+        (1, 'a', 'b'),
+        (24, 'a', 'y'),
+        (25, 'a', 'z'),
+    ])
+    def test_add_offset_to_alphabet(self, offset: int, base_alphabet: str, expected: str):
+        if base_alphabet == '':
+            actual = add_offset_to_alphabet(offset)
+        else:
+            actual = add_offset_to_alphabet(offset, base_alphabet)
+
+        assert actual == expected
 
     @pytest.mark.parametrize(('alphabet', 'base_alphabet', 'expected'), [
         ('A', '', 0),
@@ -29,7 +48,7 @@ class TestString:
             actual = get_offset(alphabet, base_alphabet)
 
         assert actual == expected
-
+    
     @pytest.mark.parametrize(('string', 'expected'), [
         ('hello world.', 'Hello World.'),
         ('Hello world.', 'Hello World.'),
