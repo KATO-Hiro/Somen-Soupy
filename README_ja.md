@@ -47,7 +47,10 @@
   - [ランダムアクセスがO(1)となるdeque](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/random_access_deque.py)
 
 - 文字列
+  - [アルファベット同士のオフセットを取る](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
+  - [アルファベットにオフセットを加えた値を取得する](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
   - [タイトルケースに変換](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
+  - [Popcount](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/popcount.py)
 
 ## 利用環境、開発環境に関する情報
 
