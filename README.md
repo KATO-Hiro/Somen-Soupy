@@ -58,6 +58,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Add offset to alphabet](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
   - [Get offset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
   - [Popcount](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/popcount.py)
+  - [Run Length Encoding / Decoding](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/run_length.py)
   - [To titlecase](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
 
 ## Requirement
