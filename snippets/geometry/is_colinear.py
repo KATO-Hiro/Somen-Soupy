@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
 
 
+"""
+Usage:
+
+    point = (1, 3)
+    point1, point2 = (0, 0), (2, 6)
+    result = is_colinear(point, point1, point2)
+"""
+
+
 def is_colinear(point, point1, point2) -> bool:
     """Determine if a point is colinear.
 
