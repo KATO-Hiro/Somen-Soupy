@@ -11,11 +11,14 @@ Usage:
 
 def calc_line_passing_through(point1, point2):
     '''
+
     Args:
         point1, point2: Points that constitutes a line.
 
     Returns:
-        bool: True if point is colinear between point1 and point2.
+        parameters of the line.
+            slope    : a, b
+            intercept: c
 
     Landau notation: O(log(min(a, b, c))).
 
