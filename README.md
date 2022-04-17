@@ -29,6 +29,10 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [LCS (Longest Common Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
   - [LIS (Longest Increasing Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lis.py)
 
+- Geometry
+  - [Calc line passing through points](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/line_passing_through_points.py)
+  - [is_colinear](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/is_colinear.py)
+
 - Graph
   - [Bellman Ford](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bellman_ford.py)
   - [BFS (Breadth-First Search) template](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bfs_template.py)
