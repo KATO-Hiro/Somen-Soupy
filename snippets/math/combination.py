@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+
 '''Snippets for combination.
 '''
 
 # Usage:
 # combination = Combination(max_value=10 ** 5 + 100)
 # combination.count_nCr(n, r)
+# combination.count_nHr(n, r)
 
 
 class Combination:
@@ -62,3 +64,6 @@ class Combination:
             return 0
 
         return self.fac[n] * (self.finv[r] * self.finv[n - r] % self.mod) % self.mod
+
+    def count_nHr(self, n, r):
+        return self.count_nCr(n + r - 1, r)
