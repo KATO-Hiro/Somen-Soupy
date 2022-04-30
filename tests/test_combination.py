@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 import pytest
 
 from snippets.math.combination import Combination
@@ -35,3 +36,15 @@ class TestFactorization:
         actual = combination.count_nCr(90081, 48090) * combination.count_nCr(90081, 52771)
         actual = actual % mod
         assert actual == 577742975
+    
+    @pytest.mark.parametrize(('n', 'r', 'expected'), [
+        (1, 4, 1),
+        (3, 4, 15),
+        (0, 4, 0),
+        (-1, 4, 0),
+        (4, -1, 0),
+    ])
+    def test_count_nHr(self, n: int, r: int, expected: int) -> None:
+        combination = Combination(max_value=10 ** 5 + 100)
+        actual = combination.count_nHr(n, r)
+        assert actual == expected
