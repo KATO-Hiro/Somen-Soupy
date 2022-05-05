@@ -20,8 +20,8 @@ def main():
         d.append(ai)
         # Update value(s) for a given interal using ai.
 
-        while d and not (conditon):
-            di = d.popleft()
+        # while d and not (conditon):
+        #     di = d.popleft()
             # Update value(s) for a given interal using di.
 
         # Update ans
