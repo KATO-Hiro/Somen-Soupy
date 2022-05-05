@@ -66,6 +66,10 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Run Length Encoding / Decoding](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/run_length.py)
   - [To titlecase](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
 
+- Technique
+  - [Two-pointer Techinique (template)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
+  - [Count dot(.) cells up, down, left and right in grid](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
+
 ## Requirement
 
 ### For all users
