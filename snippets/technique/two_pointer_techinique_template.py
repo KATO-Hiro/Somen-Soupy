@@ -17,8 +17,8 @@ def main():
     # See:
     # https://qiita.com/keroru/items/6e0a22e8c9bf2a24dc68
     for ai in a:
-        d.append(ai)  # Add value to right side of deque.
-        # Update value(s) for a given interal.
+        d.append(ai)
+        # Update value(s) for a given interal using ai.
 
         while d and not (conditon):
             di = d.popleft()
