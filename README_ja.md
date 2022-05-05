@@ -12,6 +12,10 @@
   - [線分の傾き・切片を求める](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/line_passing_through_points.py)
   - [点が線分上にあるかを判定](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/is_colinear.py)
 
+- 計算量改善のためのテクニック
+  - [尺取り法 (テンプレート)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
+  - [グリッド上で、ある座標における上下左右の「.」マスの数を数える](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
+
 - グラフ理論
   - [木: 任意の頂点から各頂点への距離を求める (各リンクの長さが1の場合)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/tree_distance.py)
   - [強連結成分分解 (SCC)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/scc.py)
