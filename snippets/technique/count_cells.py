@@ -15,7 +15,7 @@ def count_cells(grids, h: int, w: int):
 
     # for i in range(h):
     #     for j in range(w):
-    #         if grids[i][j] == '.':
+    #         if grids[i][j] == dot:
     #             dot_count += 1
 
     for i in range(h - 2, -1, -1):
