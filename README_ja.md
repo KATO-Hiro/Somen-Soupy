@@ -41,6 +41,7 @@
   - [直積集合を列挙](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/direct_product.py)
   - [パスカルの三角形 (二項係数, nCr)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/pascals_triangle.py)
   - [ビットが1となるインデックスのリストを取得](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/bit_index.py)
+  - [約数列挙](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/divisors.py)
 
 - 動的計画法
   - [最長共通部分列 (LCS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
