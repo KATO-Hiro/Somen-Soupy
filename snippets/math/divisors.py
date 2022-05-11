@@ -11,7 +11,7 @@ def generate_divisors(n: int) -> List[int]:
 
     Returns:
         List of divisors.
-        (When n is less than or equal to 2 * 10 ** 5, the number or elements
+        (When n is less than or equal to 2 * 10 ** 5, the number of elements
          is at most 160.)
 
     Landau notation: O(√n)
