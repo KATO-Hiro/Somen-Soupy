@@ -3,7 +3,7 @@
 import pytest
 
 from snippets.math.combination import Combination
-
+from snippets.math.combination import nCr
 
 class TestFactorization:
 
@@ -47,4 +47,27 @@ class TestFactorization:
     def test_count_nHr(self, n: int, r: int, expected: int) -> None:
         combination = Combination(max_value=10 ** 5 + 100)
         actual = combination.count_nHr(n, r)
+        assert actual == expected
+
+    @pytest.mark.parametrize(('n', 'r', 'expected'), [
+        (3, 1, 3),
+        (3, 2, 3),
+        (5, 3, 10),
+        (5, 5, 1),
+        (5, 0, 1),
+        (3, 4, 0),
+        (3, 5, 0),
+        (0, 0, 1),
+        (-1, 5, 0),
+        (-1, -1, 0),
+        (2, -1, 0),
+        (47, 5, 1533939),
+        (47, 10, 178066716),
+        (10 ** 5, 99998, 999949972),
+        (10 ** 5, 10 ** 5, 1),
+        (10 ** 5, 1, 10 ** 5),
+        (3 + 4 - 1, 4, 15),
+    ])
+    def test_count_combination_with_naive_version(self, n, r, expected):
+        actual = nCr(n, r)
         assert actual == expected
