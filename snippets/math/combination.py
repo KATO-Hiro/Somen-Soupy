@@ -101,4 +101,3 @@ def nCr(n: int, r: int, mod=10 ** 9 + 7):
         result %= mod
 
     return result
-nCr
