@@ -98,13 +98,14 @@ $ git clone https://github.com/KATO-Hiro/Somen-Soupy
 
 ## References
 
-[Readme Driven Development; RDD](https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec)
+Readme Driven Development; RDD<sup>[archive.org](http://web.archive.org/web/20220313000343/https://qiita.com/b4b4r07/items/c80d53db9a0fd59086ec)</sup>
 
 [Software licenses for competitive programming library](https://kimiyuki.net/blog/2020/02/14/licenses-for-kyopro-libraries/)
 
 [spaghetti-source/algorithm](https://github.com/spaghetti-source/algorithm)
 
 [Starting with the Python workflow template](https://docs.github.com/en/actions/guides/building-and-testing-python#starting-with-the-python-workflow-template)
+
 ## Author
 
 [@KATO-Hiro](https://twitter.com/k_hiro1818)
