@@ -14,6 +14,21 @@ Available functions:
                   other.
 '''
 
+"""
+Usage:
+
+    uf = UnionFind(n)
+
+    uf.is_same_group(ui, vi)
+    uf.merge_if_needs(ui, vi)
+
+    uf.find_root(i)
+    uf.get_group_size(i)
+
+    roots = uf.get_roots()
+    edge_count = uf.get_edge_count(i)
+    group_count = uf.get_group_count()
+"""
 
 class UnionFind:
     '''Represents a data structure that tracks a set of elements partitioned
