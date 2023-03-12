@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+
 '''Snippets for Union Find.
 
 Available functions:
 - find_root     : Follows the chain of parent pointers from number up the tree
                   until it reaches a root element, whose parent is itself.
-- get_group_size: .
+- get_group_size: Get group size.
 - is_same_group : Represents the roots of tree number_x and number_y are in the
                   same group.
 - merge_if_needs: Uses find_root to determine the roots of the tree number_x and
@@ -24,6 +25,7 @@ class UnionFind:
     https://www.youtube.com/watch?v=zV3Ul2pA2Fw
     https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     https://atcoder.jp/contests/abc120/submissions/4444942
+    https://atcoder.jp/contests/abc292/submissions/39410075
     '''
 
     def __init__(self, number_count: int):
@@ -32,6 +34,8 @@ class UnionFind:
             number_count: The size of elements (greater than 2).
         '''
         self.parent_numbers = [-1 for _ in range(number_count)]
+        self.edge_count = [0 for _ in range(number_count)]
+        self.group_count = number_count
 
     def find_root(self, number: int) -> int:
         '''Follows the chain of parent pointers from number up the tree until
@@ -78,13 +82,26 @@ class UnionFind:
         x = self.find_root(number_x)
         y = self.find_root(number_y)
 
+        self.edge_count[x] += 1
+
         if x == y:
             return False
 
-        if self.get_group_size(x) >= self.get_group_size(y):
-            self.parent_numbers[x] += self.parent_numbers[y]
-            self.parent_numbers[y] = x
-        else:
-            self.parent_numbers[y] += self.parent_numbers[x]
-            self.parent_numbers[x] = y
+        self.group_count -= 1
+
+        if self.parent_numbers[x] > self.parent_numbers[y]:
+            x, y = y, x
+
+        self.parent_numbers[x] += self.parent_numbers[y]
+        self.parent_numbers[y] = x
+        self.edge_count[x] += self.edge_count[y]
         return True
+
+    def get_roots(self):
+        return [i for i, x in enumerate(self.parent_numbers) if x < 0]
+
+    def get_edge_count(self, number: int) -> int:
+        return self.edge_count[number]
+
+    def get_group_count(self) -> int:
+        return self.group_count
