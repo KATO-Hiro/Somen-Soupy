@@ -16,6 +16,7 @@
   - [木: 任意の頂点から各頂点への距離を求める (各リンクの長さが1の場合)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/tree_distance.py)
   - [強連結成分分解 (SCC)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/scc.py)
   - [ダイクストラ法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
+  - [トポロジカルソート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/topological_sorting.py)
   - [根付き木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
   - [深さ優先探索 (BFS) テンプレート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bfs_template.py)
   - [Bellman Ford](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bellman_ford.py)
