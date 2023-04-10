@@ -13,9 +13,9 @@
 # x in s / x not in s:
 # O(√n)
 #
-# xth from the min value. O(√n)
+# xth (O-indexed) from the min value. O(√n)
 # s[x]
-# xth from the max value. O(√n)
+# xth (O-indexed) from the max value. O(√n)
 # s[~x]
 #
 # Add elements to the set:
