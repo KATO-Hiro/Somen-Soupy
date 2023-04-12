@@ -52,6 +52,7 @@
   - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
   - [Sorted multiset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_multi_set.py)
   - [Sorted set](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_set.py)
+  - [Trie木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/trie_tree.py)
   - [順序付き集合の代替手段 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/deletable_heapq.py)
   - [セグメント木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/segment_tree.py)
   - [2次元のリストを1次元のリストとして管理](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/two_dim_list.py)
