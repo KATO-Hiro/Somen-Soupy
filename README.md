@@ -24,7 +24,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Sorted multiset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_multi_set.py)
   - [Sorted set](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_set.py)
   - [The K-th greatest value among the first i terms of P (i = K, K + 1, ..., n)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/kth_greatest_value.py)
-  - [TrieTree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/trie_tree.py)
+  - [Trie Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/trie_tree.py)
 
 - DP
   - [LCS (Longest Common Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
