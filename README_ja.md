@@ -31,6 +31,7 @@
 - 算数・数学
   - [N進数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
   - [拡張ユークリッドの互除法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/gcd.py)
+  - [行列の回転 (右に90度)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix_rotation.py)
   - [組み合わせ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
   - [桁数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
   - [最小公倍数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
