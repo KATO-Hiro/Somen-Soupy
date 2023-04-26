@@ -51,7 +51,7 @@
   - [最長増加部分列 (LIS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lis.py)
 
 - データ構造
-  - [BIT (Binary Indexed Tree, Fenwick Tree)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
+  - [BIT (Binary Indexed Tree, Fenwick Tree)、転倒数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
   - [Sorted multiset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_multi_set.py)
   - [Sorted set](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_set.py)
   - [Trie木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/trie_tree.py)
