@@ -6,6 +6,13 @@
 # bit = BIT(n)
 # bit.add(index, value)
 # bit.sum(index)
+#
+#
+# a = [3, 10, 1, 8, 5]
+# inversion_number = calc_inversion_number(a)
+# print(inversion_number)  # 5
+
+from typing import List
 
 
 class BIT:
@@ -53,3 +60,20 @@ class BIT:
             index -= index & -index
 
         return summed
+
+
+# See:
+# https://ikatakos.com/pot/programming_algorithm/dynamic_programming/inversion
+def calc_inversion_number(array: List[int]) -> int:
+    compressed_dict = {element: index for index, element in enumerate(sorted(set(array)), 1)}
+    compressed_list = [compressed_dict[ai] for ai in array]
+
+    size = len(compressed_list)
+    bit = BIT(size)
+    inversion_number = 0
+
+    for index, value in enumerate(compressed_list):
+        inversion_number += index - bit.sum(value)
+        bit.add(value, 1)
+
+    return inversion_number
