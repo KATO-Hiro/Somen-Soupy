@@ -3,6 +3,8 @@
 
 # Usage:
 #
+#    s = input().rstrip()
+#    z_s = z_algorithm(s)
 
 
 import typing
