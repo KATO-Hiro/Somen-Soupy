@@ -68,6 +68,7 @@
   - [タイトルケースに変換](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/string.py)
   - [Popcount](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/popcount.py)
   - [ランレングス圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/run_length.py)
+  - [ローリングハッシュ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/rolling_hash.py)
 
 ## 利用環境、開発環境に関する情報
 
