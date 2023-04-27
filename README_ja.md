@@ -69,6 +69,7 @@
   - [Popcount](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/popcount.py)
   - [ランレングス圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/run_length.py)
   - [ローリングハッシュ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/rolling_hash.py)
+  - [Z algorithm](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/z_algorithm.py)
 
 ## 利用環境、開発環境に関する情報
 
