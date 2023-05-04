@@ -48,6 +48,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Warshall Floyd](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
 
 - Math
+  - [Calculate rotation / reversal of coordinates using matrices](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix.py)
   - [Combination](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
   - [Compress coordinate](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [Digit](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
@@ -59,7 +60,6 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Least Common Multiple (LCM)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
   - [List of indices whose bit is 1](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/bit_index.py)
   - [Matrix rotation](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix_rotation.py)
-  - [Calculate rotation / reversal of coordinates using matrices](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix.py)
   - [N-ary number](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
   - [Pascal's triangle (binomial coefficients, nCr)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/pascals_triangle.py)
   - [Permutation (nPr with mod)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/permutation.py)
