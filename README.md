@@ -48,6 +48,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Warshall Floyd](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
 
 - Math
+  - [Calculate rotation / reversal of coordinates using matrices](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix.py)
   - [Combination](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/combination.py)
   - [Compress coordinate](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [Digit](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)

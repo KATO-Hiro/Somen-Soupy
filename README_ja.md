@@ -37,6 +37,7 @@
   - [桁数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
   - [最小公倍数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/lcm.py)
   - [座標圧縮](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
+  - [座標の回転・反転操作を行列で計算](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/matrix.py)
   - [順列 (nPr, mod付き)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/permutation.py)
   - [整数の繰り上げ](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/carry.py)
   - [素因数分解](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
