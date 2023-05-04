@@ -73,12 +73,12 @@ def mul_vector(matrix: List[List[int]], vector: List[int]) -> List[int]:
     return results
 
 
-# rotate 90 degrees clockwise
+# rotate 90 degrees clockwise.
 def op1() -> List[List[int]]:
     return [[0, 1, 0], [-1, 0, 0], [0, 0, 1]]
 
 
-# rotate 90 degrees counterclockwise 
+# rotate 90 degrees counterclockwise.
 def op2() -> List[List[int]]:
     return [[0, -1, 0], [1, 0, 0], [0, 0, 1]]
 
