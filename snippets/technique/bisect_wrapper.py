@@ -4,10 +4,16 @@
 #
 # a = [1, 2, 3, 10, 11]  # Expected to be sorted.
 
-# index, value = bisect_lt(a, x)  # the largest element < x
-# index, value = bisect_le(a, x)  # the largest element <= x
-# index, value = bisect_gt(a, x)  # the smallest element > x
-# index, value = bisect_ge(a, x)  # the smallest element >= x
+# i, value = bisect_lt(a, x)  # the largest element < x
+# i, value = bisect_le(a, x)  # the largest element <= x
+# j, value = bisect_gt(a, x)  # the smallest element > x
+# j, value = bisect_ge(a, x)  # the smallest element >= x
+#
+# if i is not None:
+#     count = i + 1
+#
+# if j is not None:
+#     count = n - j
 
 from bisect import bisect_left, bisect_right
 from typing import List
