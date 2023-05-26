@@ -28,7 +28,7 @@ class TestBisectWrapper:
         self,
         sorted_array: List[int],
         value: int,
-        expected: Tuple[int, int] | Tuple[None, None],
+        expected,
     ) -> None:
         actual_id, actual_value = bisect_lt(sorted_array, value)
         expected_id, expected_value = expected
@@ -55,7 +55,7 @@ class TestBisectWrapper:
         self,
         sorted_array: List[int],
         value: int,
-        expected: Tuple[int, int] | Tuple[None, None],
+        expected,
     ) -> None:
         actual_id, actual_value = bisect_le(sorted_array, value)
         expected_id, expected_value = expected
@@ -83,7 +83,7 @@ class TestBisectWrapper:
         self,
         sorted_array: List[int],
         value: int,
-        expected: Tuple[int, int] | Tuple[None, None],
+        expected,
     ) -> None:
         actual_id, actual_value = bisect_gt(sorted_array, value)
         expected_id, expected_value = expected
@@ -112,7 +112,7 @@ class TestBisectWrapper:
         self,
         sorted_array: List[int],
         value: int,
-        expected: Tuple[int, int] | Tuple[None, None],
+        expected,
     ) -> None:
         actual_id, actual_value = bisect_ge(sorted_array, value)
         expected_id, expected_value = expected
