@@ -28,6 +28,7 @@
 - 計算量改善のためのテクニック
   - [尺取り法 (テンプレート)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
   - [グリッド上で、ある座標における上下左右の「.」マスの数を数える](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
+  - [二分探索(bisect)のwrapper](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/bisect_wrapper.py)
 
 - 算数・数学
   - [N進数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/n_ary_number.py)
