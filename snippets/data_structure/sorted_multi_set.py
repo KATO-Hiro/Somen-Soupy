@@ -7,7 +7,39 @@
 # s = SortedMultiset()  # empty set
 # s = SortedMultiset([1, 5, 4, 2, 3])  # set with elements
 #
+# Get size of the set:
+# size = len(s)  # O(1)
 #
+# x in s / x not in s:
+# O(√n)
+#
+# xth (O-indexed) from the min value. O(√n)
+# s[x]
+# xth (O-indexed) from the max value. O(√n)
+# s[~x]
+#
+#
+# Find then value in the set:
+# Find the largest element < x, or None if it doesn't exist.
+# s.lt(x)  # less than x
+#
+# Find the smallest element >= x, or None if it doesn't exist.
+# s.le(x)  # less than or equal to x
+#
+# Find the largest element > x, or None if it doesn't exist.
+# s.gt(x)  # greater than x
+#
+# s.ge(x)  # greater than or equal to x
+#
+#
+# Count the number of elements in the set:
+# Count the number of elements < x.
+# s.index(x)
+# Count the number of elements <= x.
+# s.index_right(x)
+#
+#
+# =============================================================================
 # Diffrence between SortedSet and SortedMultiset:
 #
 # Add element to the set:
@@ -21,14 +53,13 @@
 # Count the number of x. O(√N)
 # s.count(x)
 #
-# Also See:
-# SotedSet
 
 
 import math
 from bisect import bisect_left, bisect_right, insort
-from typing import Generic, Iterable, Iterator, TypeVar, Union, List
-T = TypeVar('T')
+from typing import Generic, Iterable, Iterator, List, TypeVar, Union
+
+T = TypeVar("T")
 
 
 class SortedMultiset(Generic[T]):
@@ -49,7 +80,10 @@ class SortedMultiset(Generic[T]):
 
         size = self.size = len(a)
         bucket_size = int(math.ceil(math.sqrt(size / self.BUCKET_RATIO)))
-        self.a = [a[size * i // bucket_size: size * (i + 1) // bucket_size] for i in range(bucket_size)]
+        self.a = [
+            a[size * i // bucket_size : size * (i + 1) // bucket_size]
+            for i in range(bucket_size)
+        ]
 
     def __init__(self, a: Iterable[T] = []) -> None:
         "Make a new SortedMultiset from iterable. / O(N) if sorted / O(N log N)"
@@ -78,7 +112,7 @@ class SortedMultiset(Generic[T]):
 
     def __str__(self) -> str:
         s = str(list(self))
-        return "{" + s[1: len(s) - 1] + "}"
+        return "{" + s[1 : len(s) - 1] + "}"
 
     def _find_bucket(self, x: T) -> List[T]:
         "Find the bucket which should contain x. self must not be empty."
