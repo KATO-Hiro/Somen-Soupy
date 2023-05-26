@@ -2,9 +2,7 @@ from bisect import bisect_left, bisect_right
 from typing import List
 
 
-def bisect_lt(
-    sorted_array: List[int], value: int
-) -> tuple[int, int] | tuple[None, None]:
+def bisect_lt(sorted_array: List[int], value: int):
     """Find the largest element < x and its index, or None if it doesn't exist."""
 
     if sorted_array[0] < value:
@@ -15,9 +13,7 @@ def bisect_lt(
     return None, None
 
 
-def bisect_le(
-    sorted_array: List[int], value: int
-) -> tuple[int, int] | tuple[None, None]:
+def bisect_le(sorted_array: List[int], value: int):
     """Find the largest element <= x and its index, or None if it doesn't exist."""
 
     if sorted_array[0] <= value:
@@ -28,9 +24,7 @@ def bisect_le(
     return None, None
 
 
-def bisect_gt(
-    sorted_array: List[int], value: int
-) -> tuple[int, int] | tuple[None, None]:
+def bisect_gt(sorted_array: List[int], value: int):
     """Find the smallest element > x and its index, or None if it doesn't exist."""
 
     if sorted_array[-1] > value:
@@ -41,9 +35,7 @@ def bisect_gt(
     return None, None
 
 
-def bisect_ge(
-    sorted_array: List[int], value: int
-) -> tuple[int, int] | tuple[None, None]:
+def bisect_ge(sorted_array: List[int], value: int):
     """Find the smallest element >= x and its index, or None if it doesn't exist."""
 
     if sorted_array[-1] >= value:
