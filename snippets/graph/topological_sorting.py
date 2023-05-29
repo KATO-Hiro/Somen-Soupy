@@ -52,7 +52,7 @@ class TopologicalSorting:
         que = deque([i for i in range(self.vertex_count) if self.indegrees[i] == 0])
         results = list()
         # initial_value = 0  # TODO: Set value if needs.
-        # cost = [initial_value] * self.vertex_count
+        # costs = [initial_value] * self.vertex_count
 
         if len(que) == 0:
             return False, []
@@ -69,12 +69,13 @@ class TopologicalSorting:
                 self.indegrees[to] -= 1
 
                 # Update costs.
-                # cost[to] = max(cost[to], cost[vertex] + 1)
+                # costs[to] = max(costs[to], costs[vertex] + 1)
 
                 if self.indegrees[to] == 0:
                     que.append(to)
 
         if len(results) == self.vertex_count:
             return True, results
+            # return True, costs
         else:
             return False, []
