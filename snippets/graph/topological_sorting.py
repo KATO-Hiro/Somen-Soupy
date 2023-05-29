@@ -33,10 +33,10 @@ class TopologicalSorting:
         self.indegrees = [0] * vertex_count
 
     def add_edge(self, frm: int, to: int) -> None:
-        '''
+        """
         Args:
             frm(from) -> to: Vertex number (0-indexed).
-        '''
+        """
         assert 0 <= frm < self.vertex_count
         assert 0 <= to < self.vertex_count
 
@@ -44,18 +44,21 @@ class TopologicalSorting:
         self.indegrees[to] += 1
 
     def sort(self) -> Tuple[bool, List[int]]:
-        '''
+        """
         Returns:
             is_DAG: Is it DAG (Directed Acyclic Graph) ?
             orders: Order of vertices (0-indexed).
-        '''
+        """
         que = deque([i for i in range(self.vertex_count) if self.indegrees[i] == 0])
         results = list()
+        # initial_value = 0  # TODO: Set value if needs.
+        # cost = [initial_value] * self.vertex_count
 
         if len(que) == 0:
             return False, []
 
         while que:
+            # No more than two vertices with indegree 0 are allowed.
             if len(que) >= 2:
                 return False, []
 
@@ -64,6 +67,9 @@ class TopologicalSorting:
 
             for to in self.graph[vertex]:
                 self.indegrees[to] -= 1
+
+                # Update costs.
+                # cost[to] = max(cost[to], cost[vertex] + 1)
 
                 if self.indegrees[to] == 0:
                     que.append(to)
