@@ -62,6 +62,7 @@
   - [セグメント木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/segment_tree.py)
   - [2次元のリストを1次元のリストとして管理](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/two_dim_list.py)
   - [配列の最初のi番目の要素までのうち、K番目に大きな値を取得 (i = K, K + 1, ..., n)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/kth_greatest_value.py)
+  - [配列を昇順/降順に並べたときに、k番目までの要素の総和を高速に計算](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sum_of_top_kth.py)
   - [平衡二分木 (C++のsetに相当)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/balancing_tree.py)
   - [ランダムアクセスがO(1)となるdeque](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/random_access_deque.py)
 
