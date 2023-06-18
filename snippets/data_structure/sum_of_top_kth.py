@@ -5,6 +5,10 @@ Usage:
 
 #     n, k, q = map(int, input().split())
 #     a = [0] * n
+
+#     # smallest
+#     s = SumOfTopKth(k, ascending_order=True)
+#     # largest 
 #     s = SumOfTopKth(k, ascending_order=False)
 
 #     for _ in range(q):
