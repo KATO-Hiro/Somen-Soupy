@@ -38,6 +38,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 - Graph
   - [Bellman Ford](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bellman_ford.py)
   - [BFS (Breadth-First Search) template](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bfs_template.py)
+  - [DFS (Depth-First Search) template](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dfs_template.py)
   - [Dijkstra](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
   - [Is bipartite](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bipartite.py)
   - [Rooted Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
