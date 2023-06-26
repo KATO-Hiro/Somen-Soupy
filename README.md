@@ -78,6 +78,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Z algorithm](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/string/z_algorithm.py)
 
 - Technique
+  - [Doubling (template)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/doubling_template.py)
   - [Two-pointer Techinique (template)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
   - [Count dot(.) cells up, down, left and right in grid](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
   - [Wrapper of bisect](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/bisect_wrapper.py)
