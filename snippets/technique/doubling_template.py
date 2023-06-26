@@ -2,7 +2,7 @@ n, k = map(int, input().split())
 digit = 30  #  k = 10 ** 9 < 2 ** 30
 dp = [[0 for _ in range(n + 1)] for _ in range(digit)]
 
-# doubling
+# Doubling
 for i in range(n + 1):
     dp[0][i] = 0  # TODO: Update value.
 
