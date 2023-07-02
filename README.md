@@ -66,6 +66,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Pascal's triangle (binomial coefficients, nCr)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/pascals_triangle.py)
   - [Permutation (nPr with mod)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/permutation.py)
   - [Prime](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
+  - [Sort using key](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/sort_using_key.py)
   - [Ternary search](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/ternary_search.py)
 
 - String
