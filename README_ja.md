@@ -58,6 +58,7 @@
 
 - データ構造
   - [BIT (Binary Indexed Tree, Fenwick Tree)、転倒数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
+  - [Range Add Query (RAQ) and Range Sum Query (RSQ)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/range_add_sum_query.py)
   - [Sorted multiset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_multi_set.py)
   - [Sorted set](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_set.py)
   - [Trie木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/trie_tree.py)
