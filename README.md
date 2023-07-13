@@ -19,6 +19,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Alternatives to ordered set (set) in C++](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/deletable_heapq.py)
   - [BIT (Binary Indexed Tree, Fenwick Tree) and inversion number](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
   - [Manage two-dimensional lists as one-dimensional lists](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/two_dim_list.py)
+  - [Range Add Query (RAQ) and Range Sum Query (RSQ)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/range_add_sum_query.py)
   - [Segment tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/segment_tree.py)
   - [Self-balancing binary search tree using pivot values (ordered set in C++)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/balancing_tree.py)
   - [Sorted multiset](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/sorted_multi_set.py)
