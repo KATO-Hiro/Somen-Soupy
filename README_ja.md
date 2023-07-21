@@ -22,7 +22,7 @@
   - [幅優先探索 (BFS) テンプレート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bfs_template.py)
   - [深さ優先探索 (DFS) テンプレート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dfs_template.py)
   - [Bellman Ford](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bellman_ford.py)
-  - [Union Find木](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
+  - [Union Find木 (1次元、2次元)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
   - [Union Find木 (重み付き)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/weighted_unionfind.py)
   - [ワーシャル・フロイド法](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
 
