@@ -46,7 +46,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [SCC (Strongly Connected Component)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/scc.py)
   - [Topological Sorting](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/topological_sorting.py)
   - [Tree Distance](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/tree_distance.py)
-  - [Union Find Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
+  - [Union Find Tree (1D and 2D)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/unionfind.py)
   - [Union Find Tree (weighted)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/weighted_unionfind.py)
   - [Warshall Floyd](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/warshall_floyd.py)
 
