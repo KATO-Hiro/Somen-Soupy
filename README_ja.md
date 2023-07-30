@@ -50,6 +50,7 @@
   - [素因数分解](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [素数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/prime.py)
   - [直積集合を列挙](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/direct_product.py)
+  - [二分探索](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/binary_search.py)
   - [パスカルの三角形 (二項係数, nCr)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/pascals_triangle.py)
   - [ビットが1となるインデックスのリストを取得](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/bit_index.py)
   - [約数列挙](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/divisors.py)
