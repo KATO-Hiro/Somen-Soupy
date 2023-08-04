@@ -9,6 +9,7 @@
 ## 主な機能
 
 - 幾何
+  - [3点から三角形の面積を求める](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/area_of_triangle.py)
   - [線分の傾き・切片を求める](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/line_passing_through_points.py)
   - [点が線分上にあるかを判定](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/is_colinear.py)
 
