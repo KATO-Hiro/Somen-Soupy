@@ -15,6 +15,8 @@ print(area)
 from typing import Tuple
 
 
+# See:
+# https://mathwords.net/x1y2hikux2y1
 def calc_area_of_triangle(
     point1: Tuple[int, int], point2: Tuple[int, int], point3: Tuple[int, int]
 ) -> float:
