@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
 
+"""
+Usage:
+
+point1 = x1, y1
+point2 = x2, y2
+point3 = x3, y3
+
+area = result = calc_area_of_triangle(point1, point2, point3)
+print(area)
+"""
+
 
 from typing import Tuple
 
