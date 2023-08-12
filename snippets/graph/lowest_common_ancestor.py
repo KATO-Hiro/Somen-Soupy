@@ -17,6 +17,7 @@
 #     graph[ai].append(bi)
 #     graph[bi].append(ai)
 
+# 0-indexed
 # root = 0
 # tree = LowestCommonAncestor(graph=graph, root=root)
 # lca = tree.lca(ui, vi)
