@@ -44,6 +44,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [DFS (Depth-First Search) template](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dfs_template.py)
   - [Dijkstra](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/dijkstra.py)
   - [Is bipartite](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bipartite.py)
+  - [Lowest Common Ancestor](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/lowest_common_ancestor.py)
   - [Rooted Tree](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/rooted_tree.py)
   - [SCC (Strongly Connected Component)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/scc.py)
   - [Topological Sorting](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/topological_sorting.py)
