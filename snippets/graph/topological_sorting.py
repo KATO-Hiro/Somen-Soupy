@@ -15,6 +15,7 @@ Usage:
         ts.add_edge(frm=ai, to=bi)
 
     is_DAG, orders = ts.sort()
+    is_DAG, orders = ts.sort_only_reachable_vertices_from(start_id=0)
 """
 
 from collections import deque
@@ -43,7 +44,7 @@ class TopologicalSorting:
         self.graph[frm].append(to)
         self.indegrees[to] += 1
 
-    def sort(self) -> Tuple[bool, List[int]]:
+    def sort(self, allow_a_vertex_with_indegree_zero=True) -> Tuple[bool, List[int]]:
         """
         Returns:
             is_DAG: Is it DAG (Directed Acyclic Graph) ?
@@ -59,7 +60,7 @@ class TopologicalSorting:
 
         while que:
             # No more than two vertices with indegree 0 are allowed.
-            if len(que) >= 2:
+            if allow_a_vertex_with_indegree_zero and len(que) >= 2:
                 return False, []
 
             vertex = que.popleft()
@@ -79,3 +80,41 @@ class TopologicalSorting:
             # return True, costs
         else:
             return False, []
+
+    def sort_only_reachable_vertices_from(
+        self, start_id: int = 0
+    ) -> Tuple[bool, List[int]]:
+        """
+        Returns:
+            is_DAG: Is it DAG (Directed Acyclic Graph) ?
+            orders: Order of vertices (1-indexed).
+        """
+        is_DAG, orders = self.sort(allow_a_vertex_with_indegree_zero=False)
+
+        if not is_DAG:
+            return is_DAG, orders
+
+        que = deque([start_id])
+        visited = [False] * self.vertex_count
+
+        while que:
+            cur = que.popleft()
+
+            if visited[cur]:
+                continue
+
+            visited[cur] = True
+
+            for to in self.graph[cur]:
+                if visited[to]:
+                    continue
+
+                que.append(to)
+
+        reachable_orders = list()
+
+        for order in orders:
+            if visited[order]:
+                reachable_orders.append(order + 1)
+
+        return is_DAG, reachable_orders
