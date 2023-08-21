@@ -1,24 +1,31 @@
 # -*- coding: utf-8 -*-
 
+# Grid ===
+from collections import deque
+from typing import Any, List, Tuple
 
-def main():
-    from collections import deque
-    import sys
+h, w = map(int, input().split())
+# TODO: Change input format if needs.
+grid = [list(input().rstrip()) for _ in range(h)]
+sy, sx = 0, 0
 
-    input = sys.stdin.readline
 
-    h, w = map(int, input().split())
-    # TODO: Change input format if needs.
-    c = [list(input().rstrip()) for _ in range(h)]
+def bfs_for_grid(
+    grid: List[List[Any]], h: int, w: int, sy: int = 0, sx: int = 0
+) -> Tuple[List[List[bool]], List[List[int]]]:
     d = deque()
-    d.append((0, 0))
+    d.append((sy, sx))
     visited = [[False] * w for _ in range(h)]
-    dist = [[0] * w for _ in range(h)]
-    dist[0][0] = 1 # Initialize
+    pending = -1
+    dist = [[pending] * w for _ in range(h)]
+    dist[sy][sx] = 1  # Initialize
     dxy = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
     while d:
         y, x = d.popleft()
+
+        if dist[y][x] == pending:
+            continue
 
         if visited[y][x]:
             continue
@@ -33,12 +40,17 @@ def main():
                 continue
             if visited[ny][nx]:
                 continue
-            if c[ny][nx] == '#':
+            if grid[ny][nx] == "#":
+                continue
+            if dist[ny][nx] != pending and dist[ny][nx] <= dist[y][x]:
                 continue
 
+            dist[ny][nx] = dist[y][x] + 1  # Update ans
             d.append((ny, nx))
-            dist[ny][nx] = dist[y][x] + 1 # Update ans
+
+    return visited, dist
 
 
-if __name__ == "__main__":
-    main()
+visited, dist = bfs_for_grid(grid=grid, h=h, w=w, sy=sy, sx=sx)
+
+# ===
