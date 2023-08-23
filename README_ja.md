@@ -12,6 +12,7 @@
   - [3点から三角形の面積を求める](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/area_of_triangle.py)
   - [線分の傾き・切片を求める](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/line_passing_through_points.py)
   - [点が線分上にあるかを判定](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/is_colinear.py)
+  - [2つの円の位置関係を判定(円周上 / 内部・内接・交差・外接・外部)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/two_circles_position.py)
 
 - グラフ理論
   - [木: 任意の頂点から各頂点への距離を求める (各リンクの長さが1の場合)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/tree_distance.py)

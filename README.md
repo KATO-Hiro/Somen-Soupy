@@ -36,6 +36,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Calc area of triangle](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/area_of_triangle.py)
   - [Calc line passing through points](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/line_passing_through_points.py)
   - [is_colinear](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/is_colinear.py)
+  - [Is on circle / Is intersected](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/two_circles_position.py)
 
 - Graph
   - [Bellman Ford](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/graph/bellman_ford.py)
