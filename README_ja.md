@@ -61,6 +61,7 @@
 - 動的計画法
   - [最長共通部分列 (LCS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
   - [最長増加部分列 (LIS)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lis.py)
+  - [巡回セールスマン問題のテンプレート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/traveling_salesman_problem_template.py)
 
 - データ構造
   - [BIT (Binary Indexed Tree, Fenwick Tree)、転倒数](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/bit.py)
