@@ -31,6 +31,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 - DP
   - [LCS (Longest Common Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lcs.py)
   - [LIS (Longest Increasing Subsequence)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/lis.py)
+  - [Template of TSP (Traveling Salesman Problem)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/dp/traveling_salesman_problem_template.py)
 
 - Geometry
   - [Calc area of triangle](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/geometry/area_of_triangle.py)
