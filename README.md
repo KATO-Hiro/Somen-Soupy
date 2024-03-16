@@ -62,6 +62,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
   - [Compress coordinate](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/comress.py)
   - [Digit](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/digit.py)
   - [Direct product](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/direct_product.py)
+  - [Doubly Linked List](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/data_structure/doubly_linked_list.py)
   - [Extended Euclidean algorithm](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/gcd.py)
   - [Factorization](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/factorization.py)
   - [Generate divisors](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/math/divisors.py)
@@ -96,7 +97,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 
 ### For all users
 
-- Python 3.8.0+, 3.9.0+, 3.10.0+, 3.11.0+
+- Python 3.11.0+
 - pip
 
 ### For developer
