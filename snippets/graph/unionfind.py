@@ -71,6 +71,7 @@ class UnionFind:
     https://en.wikipedia.org/wiki/Disjoint-set_data_structure
     https://atcoder.jp/contests/abc120/submissions/4444942
     https://atcoder.jp/contests/abc292/submissions/39410075
+    https://github.com/not522/ac-library-python/blob/master/atcoder/dsu.py
     """
 
     def __init__(self, number_count: int) -> None:
@@ -78,6 +79,7 @@ class UnionFind:
         Args:
             number_count: The size of elements (greater than 2).
         """
+        self.number_count = number_count
         self.parent_numbers = [-1 for _ in range(number_count)]
         self.edge_count = [0 for _ in range(number_count)]
         self.group_count = number_count
@@ -145,6 +147,15 @@ class UnionFind:
     def get_roots(self) -> List[int]:
         return [i for i, x in enumerate(self.parent_numbers) if x < 0]
 
+    def get_groups(self) -> List[List[int]]:
+        roots: List[int] = [self.find_root(i) for i in range(self.number_count)]
+        groups: List[List[int]] = [[] for _ in range(self.number_count)]
+
+        for i in range(self.number_count):
+            groups[roots[i]].append(i)
+
+        return list(filter(lambda g: g, groups))
+
     def get_edge_count(self, number: int) -> int:
         return self.edge_count[number]
 
@@ -196,6 +207,13 @@ class UnionFind2D:
     def get_roots(self) -> List[int]:
         return self.uf.get_roots()
 
+    def get_groups(self) -> List[List[int]]:
+        """
+        Returns:
+            List of trees id (0-index).
+        """
+        return self.uf.get_groups()
+
     def get_edge_count(self, x: int, y: int) -> int:
         assert 0 <= x < self.width
         assert 0 <= y < self.height
@@ -214,3 +232,13 @@ class UnionFind2D:
             The trees id (0-index).
         """
         return x + self.width * y
+
+    def _to_yx(self, number: int) -> tuple[int, int]:
+        """
+        Args:
+            The trees id (0-index).
+
+        Returns:
+            y, x: Coordinates in grid (0-index).
+        """
+        return divmod(number, self.width)
