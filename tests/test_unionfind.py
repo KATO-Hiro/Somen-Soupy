@@ -69,6 +69,16 @@ class TestUnionFind:
         uf.merge_if_needs(0, 1)
         assert uf.get_roots() == [0, 2, 3, 4]
 
+    def test_get_groups(self) -> None:
+        number = 10
+        uf = UnionFind(number)
+
+        uf.merge_if_needs(0, 1)
+        uf.merge_if_needs(3, 8)
+        uf.merge_if_needs(8, 5)
+
+        assert uf.get_groups() == [[0, 1], [2], [3, 5, 8], [4], [6], [7], [9]]
+
     def test_edge_count(self):
         number = 5
         uf = UnionFind(number)
@@ -203,6 +213,77 @@ class TestUnionFind2D:
             51,
             53,
         ]
+
+        assert actual == expected
+
+    def test_get_groups(self, union_find_2d: UnionFind2D) -> None:
+        actual = union_find_2d.get_groups()
+        expected = [
+            [
+                0,
+                1,
+                2,
+                4,
+                5,
+                9,
+                11,
+                12,
+                13,
+                18,
+                19,
+                28,
+                29,
+                30,
+                37,
+                38,
+                39,
+                45,
+                46,
+                47,
+                48,
+            ],
+            [3],
+            [6],
+            [7, 8, 15, 16, 25],
+            [10],
+            [14],
+            [17],
+            [20],
+            [21],
+            [22],
+            [23],
+            [24],
+            [26],
+            [27],
+            [31],
+            [32, 33, 35, 41, 42, 43, 44, 50, 52],
+            [34],
+            [36],
+            [40],
+            [49],
+            [51],
+            [53],
+        ]
+
+        assert actual == expected
+
+    @pytest.mark.parametrize(
+        ("number", "expected"),
+        [
+            (0, (0, 0)),
+            (1, (0, 1)),
+            (8, (0, 8)),
+            (9, (1, 0)),
+            (10, (1, 1)),
+            (17, (1, 8)),
+            (45, (5, 0)),
+            (53, (5, 8)),
+        ],
+    )
+    def test_to_yx(
+        self, union_find_2d: UnionFind2D, number: int, expected: tuple[int, int]
+    ) -> None:
+        actual = union_find_2d._to_yx(number)
 
         assert actual == expected
 
