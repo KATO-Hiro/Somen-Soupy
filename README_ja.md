@@ -33,6 +33,7 @@
 - 計算量改善のためのテクニック
   - [グリッド上で、ある座標における上下左右の「.」マスの数を数える](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
   - [尺取り法 (テンプレート)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
+  - [数列の特定の値に対して、同じ値の前後のインデックスを求める、指定した区間に含まれる数を数える](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/finder.py)
   - [ダブリングのテンプレート](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/doubling_template.py)
   - [2次元累積和](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/cumulative_sum_two_dim.py)
   - [二分探索(bisect)のwrapper](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/bisect_wrapper.py)
@@ -109,7 +110,7 @@
 ターミナルで以下のコマンドを貼り付けて、実行してください。
 
 ```terminal
-$ git clone https://github.com/KATO-Hiro/Somen-Soupy
+git clone https://github.com/KATO-Hiro/Somen-Soupy
 ```
 
 ## 参考資料

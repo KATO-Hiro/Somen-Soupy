@@ -89,6 +89,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 - Technique
   - [Cumulative Sum 2D](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/cumulative_sum_two_dim.py)
   - [Doubling (template)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/doubling_template.py)
+  - [Find the index before and after a specific value and the same value for an array, counting the numbers in an interval](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/finder.py)
   - [Two-pointer Techinique (template)](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/two_pointer_techinique_template.py)
   - [Count dot(.) cells up, down, left and right in grid](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/count_cells.py)
   - [Wrapper of bisect](https://github.com/KATO-Hiro/Somen-Soupy/blob/master/snippets/technique/bisect_wrapper.py)
@@ -115,7 +116,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 Paste the following commands at a Terminal prompt.
 
 ```terminal
-$ git clone https://github.com/KATO-Hiro/Somen-Soupy
+git clone https://github.com/KATO-Hiro/Somen-Soupy
 ```
 
 ## References
