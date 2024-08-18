@@ -1,5 +1,3 @@
-from tkinter import NO
-
 import pytest
 
 from snippets.technique.finder import NOT_FOUND, Finder
