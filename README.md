@@ -98,7 +98,7 @@ Python3 implementation of competitive programming library inspired by spaghetti-
 
 ### For all users
 
-- Python 3.11.0+
+- Python 3.11+, 3.12+, 3.13+
 - pip
 
 ### For developer
