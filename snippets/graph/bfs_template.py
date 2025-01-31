@@ -83,7 +83,7 @@ def bfs_for_graph(
     dist[start_id] = 0
 
     while d:
-        cur = d.pop()
+        cur = d.popleft()
 
         if visited[cur]:
             continue
