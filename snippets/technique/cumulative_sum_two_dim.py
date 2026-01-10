@@ -13,6 +13,11 @@ q = int(input())
 
 for _ in range(q):
     x1, y1, x2, y2 = map(int, input().split())
+
+    # 0-indexed.
+    y1 -= 1
+    x1 -= 1
+
     array[y1][x1] += 1
     array[y1][x2] -= 1
     array[y2][x1] -= 1
@@ -24,25 +29,21 @@ c = CumulativeSum2d(array)
 for _ in range(q):
     x1, y1, x2, y2 = map(int, input().split())
 
-    # 1-indexed.
-    x1 -= 1
-    y1 -= 1
-    ans = c.query(x1, y1, x2, y2)
-
     # 0-indexed.
     ans = c.query(x1, y1, x2 + 1, y2 + 1)
 """
 
-from typing import Any, List
+
+from typing import Any
 
 
 # See:
 # https://atcoder.jp/contests/abc311/submissions/43843595
 class CumulativeSum2d:
-    def __init__(self, array: List[List[Any]]) -> None:
+    def __init__(self, array: list[list[Any]]) -> None:
         self.height: int = len(array)
         self.width: int = len(array[0])
-        self.summed_array: List[List[Any]] = [
+        self.summed_array: list[list[Any]] = [
             [0] * (self.width + 1) for _ in range(self.height + 1)
         ]
 
@@ -67,5 +68,5 @@ class CumulativeSum2d:
             + self.summed_array[y1][x1]
         )
 
-    def get_summed_array(self) -> List[List[Any]]:
+    def get_summed_array(self) -> list[list[Any]]:
         return self.summed_array
